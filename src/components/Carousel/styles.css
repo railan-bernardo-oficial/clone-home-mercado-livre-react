@@ -1,0 +1,74 @@
+.swipper-custom-carousel .swiper-button-prev, .swiper-rtl .swiper-button-next{
+  left: 0;
+  background-color: #fff;
+  border-radius: 50%;
+
+  height: 64px;
+  width: 64px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+  padding-right: 0;
+}
+
+.swipper-custom-carousel .swiper-button-next, .swiper-rtl .swiper-button-prev{
+  right: 0;
+  background-color: #fff;
+  border-radius: 50%;
+  height: 64px;
+  width: 64px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+  padding-left: 0;
+}
+
+
+.swipper-custom-carousel .swiper-button-prev.swiper-button-disabled{
+  left: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  height: 64px;
+  width: 64px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+  padding-left: 0;
+}
+
+.swipper-custom-carousel .swiper-button-next.swiper-button-disabled{
+  right: 40px;
+  background-color: #fff;
+  border-radius: 50%;
+  height: 64px;
+  width: 64px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+  padding-left: 0;
+}
+ 
+.swipper-custom-carousel .swiper-button-prev{
+    left: 40px;
+}
+.swipper-custom-carousel .swiper-button-next{
+    right: 40px;
+}
+
+.swipper-custom-carousel .swiper-button-next, 
+.swipper-custom-carousel .swiper-button-prev{
+    visibility: visible;
+}
+
+.swipper-custom-carousel .swiper-button-next:hover, 
+.swipper-custom-carousel .swiper-button-prev:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,.1);
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0,0,0,.1);
+    -moz-box-shadow: 0 8px 16px 0 rgba(0,0,0,.1);
+}
+
+
+
+.swiper-button-prev:after, .swiper-button-next:after{
+  font-size: 17px;
+}

@@ -1,0 +1,69 @@
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+  left: 0;
+  background-color: #fff;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  height: 64px;
+  width: 32px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+  padding-right: 8px;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+  right: 0;
+  background-color: #fff;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  height: 64px;
+  width: 32px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+  padding-left: 8px;
+}
+
+
+.swiper-button-prev.swiper-button-disabled{
+  right: 0;
+  background-color: #fff;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  height: 64px;
+  width: 32px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+  padding-left: 8px;
+}
+
+.swiper-button-next.swiper-button-disabled{
+  right: 0;
+  background-color: #fff;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  height: 64px;
+  width: 32px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,.12);
+  padding-left: 8px;
+}
+
+.swiper-button-next, 
+.swiper-button-prev{
+    visibility: hidden;
+}
+
+.swiper:hover .swiper-button-next{
+   visibility: visible;
+}
+.swiper:hover .swiper-button-prev{
+   visibility: visible;
+}
+
+
+.swiper-button-prev:after, .swiper-button-next:after{
+  font-size: 17px;
+}
